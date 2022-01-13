@@ -5,6 +5,6 @@
 /* eslint-disable linebreak-style */
 /* eslint-disable eol-last */
 /* eslint-disable import/no-extraneous-dependencies */
-const {merge} = require('webpack-merge');
+const { merge } = require('webpack-merge');
 const common = require('./webpack.common');
-module.exports = merge(common, {mode:'development'});
+module.exports = merge(common, { mode:'development' });
